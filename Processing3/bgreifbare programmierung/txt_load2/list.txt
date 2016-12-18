@@ -1,0 +1,7 @@
+10	1	first
+20	2	second
+30	3	third
+40	4	fourth
+50	5	fifth
+60	6	sixth
+70	7	seventh

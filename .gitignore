@@ -1,3 +1,4 @@
+*.mp3
 *.mp4
 *.mov
 *.png
@@ -12,3 +13,4 @@
 */modes/
 **/application.windows64/
 **/application.windows32/
+/Processing2/

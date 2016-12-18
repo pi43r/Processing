@@ -1,0 +1,24 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 18-04-2013
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT:
+
+  01- 05 ELEID: Element identifier
+  07- 156 DESC: Description
+ 158- 172 UNIT: Unit
+
+ELEID,DESC                                                                                                                                                  ,UNIT
+
+  FG1,Average wind speed of 24 hourly measurements of 10-min average (0-0 UT)                                                                               ,0.1 m/s        
+  FG2,Average wind speed of measurements at 06, 12, 18, (00) UTC                                                                                            ,0.1 m/s        
+  FG3,Average wind speed of 3 measurements at 06.30, 13.30 and 20.30 UTC                                                                                    ,0.1 m/s        
+  FG4,Average wind speed, mean of 7, 14 and 21 CET                                                                                                          ,0.1 m/s        
+  FG5,Average wind speed 18 - 18 UT, 8 3-hourly observations                                                                                                ,0.1 m/s        
+  FG6,Average wind speed, mean of 4 10-min averages of 00, 07, 13 and 18 UT                                                                                 ,0.1 m/s        
+  FG7,Average wind speed of 24 hourly measurements (6 10-min average per hour) 0-0 UT                                                                       ,0.1 m/s        
+  FG8,Average 10-minute wind speed from 23 UT previous day - 22 UT today (24 values)                                                                        ,0.1 m/s        

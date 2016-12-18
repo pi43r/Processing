@@ -1,0 +1,6 @@
+20	20	first
+40	40	second
+60	60	third
+80	80	fourth
+100	200	fifth
+140	260	sixth
