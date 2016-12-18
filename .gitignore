@@ -13,4 +13,5 @@
 */modes/
 **/application.windows64/
 **/application.windows32/
+**/application.macosx/
 /Processing2/
