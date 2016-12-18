@@ -1,0 +1,14 @@
+*.mp4
+*.mov
+*.png
+*.jpeg
+*.jpg
+*.gif
+*.pdf
+*/examples/
+*/templates/
+*/tools/
+*/libraries/
+*/modes/
+**/application.windows64/
+**/application.windows32/
