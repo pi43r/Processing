@@ -11,8 +11,8 @@ int[] seg;
 IntList segLength;
 
 void setup() {
-  //fullScreen(2);
-  size(1280, 720);
+  fullScreen(2);
+  //size(1280, 720);
   m = new Movie(this, "movie.mp4");
   m.play();
 

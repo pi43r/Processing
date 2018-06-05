@@ -14,34 +14,34 @@ float zstart, znoise, xstart, ystart, xnoise, ynoise, count;
 int b = 0;
 
 int incrx = 0; //increment for noiseFactor for x 
-int incry = 0; //increment for noiseFactor for y
-int incrz = 80; //noise for z
+int incry = 00; //increment for noiseFactor for y
+int incrz = 0; //noise for z
 int incrLineIn = 0; //increment Line In
 
 int xgap = 10; 
-int ygap = 10;
+int ygap = 220;
 
 float incrXnoise = 0.1;
 float incrYnoise = 0.1;
 float incrZnoise = 0.5;
 float incrCount  = 0.0;
 
-int size = 400;
+int size = 4;
 float sizeMult = 1;
 int z = 500;
 
 float c = 0;
-float saturation = 50;
+float saturation = 0;
 float brightness = 100;
-float opacity = 150;
+float opacity = 100;
 
 
 void setup() {
   //size(500, 500, P3D);
   fullScreen(P3D);
-  frameRate(24);
+  //frameRate(24);
   smooth();
-  colorMode(HSB, 360, 100, 100);
+  colorMode(HSB, 360, 100, 100, 100);
   zstart = random(10);
 
   minim = new Minim(this);
@@ -202,7 +202,7 @@ void controllerChange(ControlChange change) {
       println("brightness: " + brightness);
     }
     if (change.number() == 4){
-      float newVal = map(change.value(),0,127, 0 ,255 );
+      float newVal = map(change.value(),0,127, 0 ,100 );
       opacity = newVal;
       println("opacity: " + opacity);
     }

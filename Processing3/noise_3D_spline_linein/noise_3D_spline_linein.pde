@@ -1,7 +1,34 @@
-//interaction
-//0
-//
-//
+/********interaction Buttons*********
+ == Y Parameters ==
+ <y> incrY++        <a> incrY--
+ <q> incrYnoise++   <1> incrYnoise--
+
+ == X Parameters ==
+ <x> incrX++        <s> incrX--
+ <w> incrXnoise++   <2> incrXnoise--
+ 
+ == Z Parameters ==
+ <c> incrZ++        <d> incrZ--
+ <e> incrZnoise++   <3> incrZnoise--
+ 
+ == Gaps ==
+ <,> yGap--         <.> yGap++
+ <;> xGap--         <:> xGap++
+ 
+ == Rotation speed == 
+ <0> Set to 0
+ <p> rotation--     <ö> rotation++
+ 
+ == Line In == 
+ <ß> set to 0
+ <ü> incrLineIn++   <ä> incrLineIn--
+ 
+ == Line Thickness == 
+ <+> size++         <#> size--
+ 
+ == Object Distance == 
+ <z> z++            <h> z--
+*/
 
 import ddf.minim.*;
 
@@ -29,8 +56,8 @@ int z = 1;
 
 
 void setup() {
-  //size(500, 500, P3D);
-  fullScreen(P3D);
+  size(900, 600, P3D);
+  //fullScreen(P3D);
   frameRate(24);
   smooth();
   colorMode(HSB, 360, 100, 100);
@@ -237,6 +264,8 @@ void keyPressed() {
     incrLineIn += 1;
     println("incrLineIn: " + incrLineIn);
     break;
+    
+  //Thickness
   case'#':
     if (size > 0) {
       size -= 1;
@@ -248,6 +277,7 @@ void keyPressed() {
     println("size: " + size);
     break;
 
+  // z
   case'z':
 
     z -= 10;
